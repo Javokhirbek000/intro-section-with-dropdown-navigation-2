@@ -1,0 +1,21 @@
+.dropdown-btn {
+  display: inline-flex;
+  align-items: center;
+  column-gap: 9px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  color: #686868;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 500;
+  text-transform: capitalize;
+
+  &:hover {
+    color: #151515;
+  }
+
+  span i {
+    display: block;
+  }
+}

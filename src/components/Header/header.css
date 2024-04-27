@@ -1,0 +1,52 @@
+header {
+	display: flex;
+	align-items: center;
+	column-gap: 62px;
+	max-width: 1360px;
+	height: max-content;
+	margin: 0 auto;
+	margin-bottom: 60px;
+
+	.navbar-and-signup-wrapper {
+		display: flex;
+		justify-content: space-between;
+		width: 100%;
+
+		
+
+		.register-login-wrap {
+			display: flex;
+			align-items: center;
+			column-gap: 40px;
+
+			.register-btn, .login-btn {
+        cursor: pointer;
+				color: #686868;
+				font-size: 14px;
+				line-height: 16px;
+				font-weight: 500;
+				text-transform: capitalize;
+
+        &:hover {
+          color: #151515;
+        }
+			}
+
+      .login-btn {
+        border: none;
+        background: transparent;
+      }
+
+      .register-btn {
+        padding: 13px 23px;
+				border: 2px solid #686868;
+				border-radius: 14px;
+				background-color: transparent;
+
+        &:hover {
+          border-color: #151515;
+        }
+      }
+		}
+	}
+}
