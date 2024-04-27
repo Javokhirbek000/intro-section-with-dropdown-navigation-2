@@ -15,6 +15,7 @@
     flex-direction: column;
     justify-content: space-between;
 		.promo-info-content {
+			margin-bottom: 20px;
 			padding-top: 104px;
 			.promo-title {
 				font-size: 80px;
